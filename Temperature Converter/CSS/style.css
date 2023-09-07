@@ -1,0 +1,60 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    width: 100%;
+    height: 85vh;
+    background-color: #b7e8ea;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+#fa{
+    font-size: 60px;
+}
+
+form{
+    background-color: #f7b9ee;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0 10px 6px -6px #121111;
+    -moz-box-shadow: 0 10px 6px -6px #171717;
+    box-shadow: 0 10px 6px -6px #aba7a7;
+    border-radius: 10px;
+}
+
+#tempCalc label{
+    font-size: 30px;
+}
+#temp{
+    background-color: #dfdfb5;
+}
+#temp_diff{
+    background-color: #dfdfb5;
+}
+.cel{
+    color: #121111;
+    background-color: #75cb78;
+}
+.fah{
+    color: #121111;
+    background-color: #c6ca4a;
+}
+/* [type="submit"]{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+} */
+
+#resultContainer{
+    font-size: 35px;
+}
